@@ -1,0 +1,59 @@
+{
+  "name": "pixaven",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise-grade image processing SaaS running entirely on Apple® platform. Resize, scale, crop, mask, filter and enhance your images with blazing speed.",
+  "license": "MIT",
+  "repository": "pixaven/pixaven-node",
+  "homepage": "https://www.pixaven.com",
+  "author": {
+    "name": "Pixaven UG",
+    "email": "support@pixaven.com",
+    "url": "https://www.pixaven.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "keywords": [
+    "pixaven",
+    "crx",
+    "image",
+    "image processing",
+    "image resizing",
+    "image resizer",
+    "image cropping",
+    "image scaling",
+    "image masking",
+    "image watermarking",
+    "image filtering",
+    "image thumbnails",
+    "pic",
+    "picture",
+    "photo",
+    "face",
+    "face detection",
+    "visual",
+    "watermark",
+    "filter",
+    "crop",
+    "mask",
+    "resize",
+    "resizer",
+    "thumbs",
+    "thumbnail",
+    "thumbnails",
+    "jpg",
+    "jpeg",
+    "png",
+    "gif",
+    "svg",
+    "bmp",
+    "psd",
+    "tiff"
+  ],
+  "dependencies": {
+    "once": "^1.4.0",
+    "request": "^2.79.0"
+  }
+}

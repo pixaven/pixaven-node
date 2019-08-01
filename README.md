@@ -1,1 +1,1 @@
-<img src="media/readme-header.png" title="Pixaven" alt="Pixaven">
+[![Pixaven](media/readme-header.png "Pixaven: GPU-powered Image Processing Platform")](https://www.pixaven.com)

@@ -1,1 +1,1 @@
-<img src="media/readme-header.jpg" title="Pixaven" alt="Pixaven">
+<img src="media/readme-header.png" title="Pixaven" alt="Pixaven">

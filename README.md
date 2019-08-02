@@ -108,3 +108,5 @@ pix
 
 ### License
 This software is distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+<p align="center"><a href="https://www.pixaven.com"><img src="media/logo-mono-light.png" alt="Pixaven" width="165" height="42"/></a></p>

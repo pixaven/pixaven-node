@@ -11,8 +11,8 @@ Pixaven is a modern, GPU-powered image processing API.<br>We transform, enhance,
 <img src="https://img.shields.io/npm/v/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/node/v/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/snyk/vulnerabilities/npm/pixaven?style=flat&color=success"/>
-<img src="https://img.shields.io/npm/l/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/github/issues-raw/pixaven/pixaven-node?style=flat&color=success"/>
+<img src="https://img.shields.io/npm/l/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/twitter/follow/pixaven?label=Follow%20Us&style=flat&color=success&logo=twitter"/>
 </p>
 

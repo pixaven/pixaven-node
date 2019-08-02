@@ -11,7 +11,7 @@ Pixaven is a modern, GPU-powered image processing API.<br>We transform, enhance,
 <img src="https://img.shields.io/npm/v/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/node/v/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/snyk/vulnerabilities/npm/pixaven?style=flat&color=success"/>
-<img src="https://img.shields.io/npm/l/bull?style=flat&color=success"/>
+<img src="https://img.shields.io/npm/l/pixaven?style=flat&color=success"/>
 <img src="https://img.shields.io/github/issues-raw/pixaven/pixaven-node?style=flat&color=success"/>
 <img src="https://img.shields.io/twitter/follow/pixaven?label=Follow%20Us&style=flat&color=success&logo=twitter"/>
 </p>
@@ -30,7 +30,7 @@ $ npm install pixaven --save
 ### Quick examples
 Pixaven API enables you to provide your images for processing in two ways - by uploading them directly to the API ([Image Upload](https://docs.pixaven.com/requests/image-upload)) or by providing a publicly available image URL ([Image Fetch](https://docs.pixaven.com/requests/image-fetch)).
 
-You may also choose your preferred [response method](https://docs.pixaven.com/introduction#choosing-response-method-and-format) on a per-request basis. By default, the Pixaven API will return a [JSON response](https://docs.pixaven.com/responses/json-response-format) consisting of rich metadata pertaining to input and output images. Additonally, you can use [binary responses](https://docs.pixaven.com/responses/binary-responses). When enabled, the API will respond with a full binary representation of the resulting (output) image. This Node module exposes two convenience methods for interacting with binary responses - `.toFile()` and `.toBuffer()`.
+You may also choose your preferred [response method](https://docs.pixaven.com/introduction#choosing-response-method-and-format) on a per-request basis. By default, the Pixaven API will return a [JSON response](https://docs.pixaven.com/responses/json-response-format) with rich metadata pertaining to input and output images. Alternatively, you can use [binary responses](https://docs.pixaven.com/responses/binary-responses). When enabled, the API will respond with a full binary representation of the resulting (output) image. This Node module exposes two convenience methods for interacting with binary responses: `.toFile()` and `.toBuffer()`.
 
 #### Image upload
 Here is a quick example of uploading a local file for processing. It calls `.toJSON()` at a final step and instructs the API to return a JSON response.
@@ -92,7 +92,7 @@ pix
     .output({
         format: "png"
     })
-    .toFile("path/to/output.jpg", (err, meta) => {
+    .toFile("path/to/output.png", (err, meta) => {
         if (err) {
             return console.log(err);
         }

@@ -38,7 +38,7 @@ Here is a quick example of uploading a local file for processing. It calls `.toJ
 ```js
 const Pixaven = require("pixaven");
 
-// Specify your Pixaven API Key in the constructor
+// Pass your Pixaven API Key to the constructor
 const pix = new Pixaven("your-api-key");
 
 // Upload an image from disk, resize it to 100 x 75,
@@ -75,7 +75,7 @@ If you already have your source visuals publicly available online, we recommend 
 ```js
 const Pixaven = require("pixaven");
 
-// Specify your Pixaven API Key in the constructor
+// Pass your Pixaven API Key to the constructor
 const pix = new Pixaven("your-api-key");
 
 // Provide a publicly available image URL with `.fetch()` method,

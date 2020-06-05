@@ -1,6 +1,6 @@
 {
   "name": "pixaven",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enterprise-grade image processing SaaS running entirely on Apple® platform. Resize, scale, crop, mask, filter and enhance your images with blazing speed.",
   "license": "MIT",
   "repository": "pixaven/pixaven-node",
